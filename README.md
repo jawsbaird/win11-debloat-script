@@ -6,7 +6,11 @@ This script was written for readability using an array `$AppPackages` that conta
 
 ## Learning Resources 
 ErrorAction - https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_commonparameters?view=powershell-7.4#-erroraction
+
 SilentlyContinue - https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_commonparameters?view=powershell-7.4#-erroraction
+
 Get-AppxPackage - https://learn.microsoft.com/en-us/powershell/module/appx/get-appxpackage?view=windowsserver2022-ps
+
 Remove-AppxPackage - https://learn.microsoft.com/en-us/powershell/module/appx/remove-appxpackage?view=windowsserver2022-ps
+
 foreach - https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_foreach?view=powershell-7.4
