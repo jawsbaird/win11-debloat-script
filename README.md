@@ -1,5 +1,5 @@
 # Windows 11 Debloat Script
-A PowerShell script that removes preinstalled Universal Windows Platform (UWP) applications using PowerShell. Targeted for those who have Windows 11 installed on their PC.
+A PowerShell script that removes preinstalled Universal Windows Platform (UWP) applications. Targeted for those who have Windows 11 installed on their PC.
 
 ## About
 This script was written for readability using an array `$AppPackages` that contains the package names of all the preinstalled UWP applications I consider bloatware. It then iterates through each package name in the `$AppPackages` array using a foreach loop. Inside the loop, it uses `Get-AppxPackage` to retrieve the package information for the current package name. The `-ErrorAction SilentlyContinue` parameter suppresses any errors that may occur if the package is not found. If the package is found (`$Package` is not `$null`), it prints a message indicating that it's removing the package and then uses `Remove-AppxPackage` to remove the package using its full package name (`$Package.PackageFullName`).
